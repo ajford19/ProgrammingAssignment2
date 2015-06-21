@@ -1,7 +1,7 @@
 ## the goal of this function is to cache results from the original syntax in order to save
 ## compute resources when those results will need to be used for a following syntax.
 
-## Write a short comment describing this function
+## the first part of the assignment sets the value of the matrix and retrieves the results
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
@@ -15,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
     list(set=set, get=get, setinverse=setinverse, getinverse=getinverse)
 }
 
-## Write a short comment describing this function
+## the second part of this assignment
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
