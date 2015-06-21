@@ -1,5 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
+## the goal of this function is to cache results from the original syntax in order to save
+## compute resources when those results will need to be used for a following syntax.
 
 ## Write a short comment describing this function
 
